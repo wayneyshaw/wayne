@@ -44,7 +44,10 @@
  |___==___|  /              &copy; oodavid 2012 |
               |____________________________|
 
-<?php echo $output; ?>
+<?php echo $output; 
+file_open($_SERVER['DOCUMENT_ROOT'].'/testfile.txt');
+
+?>
 </pre>
 </body>
 </html>
